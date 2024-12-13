@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest"></script>
+    </head>
+    <body>
+       <div id="my-lottie-container"></div>
+       <div class = "outer-container">
+        <div class="left-column">
+            <div class="section section-top" id="head">
+                <div class="paragraph-big">
+                    An open project to
+                    <br>accelerate healthy longevity
+                </div>
+            </div>
+            <div class="section" id="body">
+                <div class="section-space"></div>
+                <div class="paragraph-big">
+                    The world is aging. And  the way we age profoundly impacts how we live, work, give birth, and die. 
+                </div>
+                <div class="paragraph">
+                    In the 20th century, life expectancy doubled. Scientific breakthroughs like antibiotics allowed us to keep  billions of older adults alive.  This is good news, since living humans are more productive, healthier, and happier than dead ones. Yet it’s not good news that in 2024, age-related conditions like cancer, dementia and menopause still begin to show up at nearly the same age as they did in 300 BC. 
+                </div>
+                <div class="paragraph">
+                    When it comes to “longevity,” private markets have mostly produced an unproven supplements industry, and treatments for late-stage diseases. To date, no therapeutic has been designed to prevent biological aging. In this open project, we present a roadmap of market failures and scientific challenges that stand in the way of real advancements in aging science. Then, we use an open-source model to simulate how potential R&D breakthroughs could affect the U.S. population and economy. 
+                </div>
+                <div class="paragraph">
+                    But first, the present. Why do we care about human longevity? Why should you?
+                </div>
+                <div class="section-space"></div>
+            </div>
+            <div class="section" id="body2">
+            </div>
+            <div class="section" id="map">
+                <div class="section-small-space"></div>
+                <div class="paragraph-big">
+                    Our short healthspan affects every family, economy, and government.
+                </div>
+                <div class="paragraph">
+                    Today, some 40 million Americans are unpaid caretakers of older adults. By 2029, the United States will spend $3 trillion yearly — half its federal budget — on the medical treatment and social care of adults aged 65 or older. 
+                </div>
+                <div class="paragraph">
+                    In 2025, some of the free-market economies with the highest debt are developed countries with large populations of older adults suffering from age-related health conditions like cancer, menopause, and Alzheimer’s. Japan’s debt-to-GDP ratio, for instance, is at 260% — twice the American ratio — in no small part due to the sky-high costs associated with an aging and shrinking demographic. 
+                </div>
+                <div class="section-space"></div>
+            </div>
+            <div class="section" id="body3">
+                <div class="section-small-space"></div>
+                <div class="paragraph-big">
+                    What if new scientific breakthroughs could delay aging and extend healthy life? 
+                </div>
+                <div class="paragraph">
+                    We’re economists, scientists, bioethicists, philanthropists and policy analysts. In 2024, we came together to simulate a collection of alternative futures for the U.S. population and economy.
+                </div>
+                <div class="paragraph">
+                    Delaying biological aging by just 1 year could boost U.S. GDP by $426B per year, yielding $22.5T over several decades and saving 1.3M lives. Slower aging would mean lower medical costs, fewer unpaid caretakers, lower mortality rates, slightly higher fertility rates, and increased productivity for the growing number of older adults who choose to remain in the workforce.
+                </div>
+                <div class="paragraph">
+                    We present baseline results informed by interviews with 72 scientists and dozens of economists. But our model lets you simulate different futures. You can input the number of years until a therapeutic can safely delay brain aging; what percentage of the U.S. population would benefit; and how this could affect mortality, productivity, and fertility rates by age. In each simulation, we present the number of lives saved by a given advancement. We also highlight GDP as a helpful (even if imperfect) proxy for lives improved.
+                </div>
+                <div class="paragraph">
+                    These are not independent futures. For instance, there’s an overlap between brain and reproductive aging, since the brain regulates fertility hormones.  Improving the age of certain organs (e.g. the ovaries) can also reduce GDP temporarily, for instance by increasing birth rates. Other organs — like the kidneys — also have less immediate effects on productivity than improvements in brain aging. To understand the non-linear effects of each R&D area in the short and long run  (and for GDP alternatives that measure non-market outcomes), see the report. 
+                </div>
+                <div class="section-space"></div>
+            </div>
+        </div>
+
+
+        <div class ="right-column">
+            <div class="map-container">
+                
+            
+                <div class="map-inner-container">
+                    <div id="map1"></div>
+                </div>
+                <div class="lottie-container-2">
+                    <div class="lottie-4">
+                        <lottie-player
+                            class="player"
+                            id="lottie4"
+                            speed="1.5"
+                            mode="normal"
+                            src="5.json">
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-cover">
+            </div>
+
+            
+
+            <div class="lottie-container">
+                <div class="lottie-1">
+                <lottie-player
+                    class="player"
+                    id="lottiev1"
+                    loop
+                    autoplay
+                    speed="0.5"
+                    mode="normal"
+                    src="1.json">
+                </lottie-player>
+                </div>
+                <div class="lottie-2">
+                    <lottie-player
+                        class="player"
+                        id="lottie2"
+                        mode="normal"
+                        src="2.json">
+                    </lottie-player>
+                </div>
+                <div class="lottie-3">
+                    <lottie-player
+                        class="player"
+                        id="lottie3"
+                        speed="0.5"
+                        mode="normal"
+                        src="4.json">
+                    </lottie-player>
+                </div>
+            </div>
+        </div>
+
+        <div class = "outer-container"></div>
+        
+
+
+
+
+        <script src="script.js" async defer></script>
+
+    </body>
+</html>

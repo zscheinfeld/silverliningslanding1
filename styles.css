@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.outer-container{
+
+    
+}
+
+.left-column{
+    width: 50vw;
+    background-color: red;
+    /* height: 100vh; */
+}
+
+.right-column{
+    width: 50vw;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.map-cover{
+    width: 50vw;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    transition: .8s opacity ease-in-out;
+}
+
+.fade{
+    opacity: 0%;
+    transition: .8s opacity ease-in-out;
+    pointer-events: none;
+}
+
+.map-container{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.map-inner-container{
+    width: 100%;
+    height: 100%;
+}
+
+.lottie-container{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s opacity ease-in-out;
+}
+
+.player{
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#map1{
+    width: 100%; /* Use full width */
+    height: 100%;
+}
+
+.jsvectormap-container {
+    position: absolute; /* Ensures the map scales correctly */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: black;
+}
+
+#head{
+    background-color: black;
+}
+
+#body{
+    /* background-color: rgb(0, 255, 64); */
+}
+
+#body2{
+    background-color: rgb(255, 247, 0);
+}
+
+#body3{
+    background-color: black;
+}
+
+#map{
+    background-color: black;
+    
+}
+
+.paragraph{
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+    padding-bottom: 20px;
+}
+
+.paragraph-big{
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 130%;
+    padding-bottom: 20px;
+    font-size: 28px;
+    padding-bottom: 64px;
+}
+
+.section{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.section-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.section-space{
+    height: 100vh;
+
+}
+
+.section-small-space{
+    height: 50vh;
+
+}
+
+.lottie-2{display: none;}
+
+.lottie-3{display: none;}
+
+.tooltipcustom{
+    background-color: black;
+    max-width: 250px;
+    border: solid 1px white;
+    white-space: normal; /* Ensures text wraps */
+    word-wrap: break-word; /* Handles long words */
+    line-height: 1.5; /* Adds spacing between lines */
+    padding: 10px; /* Optional, for better readability */
+    font-size: 14px; /* Adjust font size for clarity */
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+  
+}
+
+
+p{
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 11px;
+}
+
+.tooltiphead{
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    line-height: 140%;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.lottie-container-2{
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s opacity ease-in-out;
+    pointer-events: none;
+}
